@@ -1,0 +1,22 @@
+{
+    "name": "solwin/cancelorder",
+    "description": "The Magento 2 Cancel Order By Customer extension allows user to cancel the order from front end. Now customer can easily cancel or delete the order from my account or dashboard page.",
+    "type": "magento2-module",
+    "version": "2.0.1",
+    "authors": [
+        {
+            "name": "Solwin",
+            "email": "stdabhoya@yahoo.com",
+            "homepage": "https://www.solwininfotech.com/",
+            "role": "Developer"
+        }
+    ],
+    "autoload": {
+        "files": [
+            "registration.php"
+        ],
+        "psr-4": {
+            "Solwin\\CancelOrder\\": ""
+        }
+    }
+}
